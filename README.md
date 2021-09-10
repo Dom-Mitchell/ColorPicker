@@ -1,19 +1,11 @@
-# react-project-template
+# ColorPicker
 
 ## Assignment
 
-The goal of this assignment was to create a basic webpage to act as a template for all future html/react projects.
+The goal of this assignment was to recreate a webpage that contains an hsl color slider similar to the one displayed below.
 
-![image of My webpage](././images/mypage.png)
-
-The above is a screen capture of the template that I created.
-
-![image of My webpage](././icons/current/dai5.svg)
-
-The above is a custom favicon that I made for the template, to be used in all future html/react projects.
-
-<br/>
+![image of hsl slider to recreate](https://raw.githubusercontent.com/suncoast-devs/handbook/master/assignments/assets/color-picker.gif)
 
 A link to the webpage that I made can be found in the About section of this repository or below.
 
-https://react-template-dommitchell.netlify.app/
+https://color-picker-dommitchell.netlify.app/
