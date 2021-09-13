@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import image from './icons/header/dai5.svg'
 
 export function App() {
   const [hue, setHue] = useState(Math.floor(Math.random() * 361))
@@ -54,12 +55,7 @@ export function App() {
   return (
     <div>
       <header>
-        <img
-          src="icons/header/dai5.svg"
-          className="logo"
-          aria-hidden="true"
-          alt="Dom Logo"
-        />
+        <img src={image} className="logo" aria-hidden="true" alt="Dom Logo" />
         <div>
           <h1>
             Color Theory
