@@ -49,8 +49,10 @@ export function App() {
     setAlpha(1)
   }
 
+  // if ( alpha  < 1) {
   const newBackgroundColor = `hsla(${hue}, ${saturation}%, ${lightness}%, ${alpha})`
   const newStyle = { backgroundColor: newBackgroundColor }
+  // }
 
   return (
     <div>
@@ -131,6 +133,7 @@ export function App() {
             <h3>{alpha}</h3>
           </li>
         </ul>
+
         <h3 className="hsla">
           hsla({hue}, {saturation}%, {lightness}%, {alpha})
         </h3>
